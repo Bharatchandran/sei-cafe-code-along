@@ -1,6 +1,6 @@
 import './LineItem.css';
 
-export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
+export default function LineItem({ lineItem, isPaid, handleChangeQty, order }) {
   return (
     <div className="LineItem">
       <div className="flex-ctr-ctr">{lineItem.item.emoji}</div>
